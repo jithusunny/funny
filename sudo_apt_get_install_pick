@@ -1,0 +1,81 @@
+jisuka@HCL:~/xinu$ pick
+The program 'pick' can be found in the following packages:
+ * mailutils-mh
+ * nmh
+Try: sudo apt-get install <selected package>
+
+jisuka@HCL:~/xinu$ sudo apt-get install nmh
+[sudo] password for jisuka: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  linux-headers-2.6.38-8 linux-headers-2.6.38-8-generic
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  libdb4.7
+Suggested packages:
+  exmh mh-e mh-book
+Recommended packages:
+  metamail
+The following NEW packages will be installed:
+  libdb4.7 nmh
+0 upgraded, 2 newly installed, 0 to remove and 61 not upgraded.
+Need to get 2,961 kB of archives.
+After this operation, 7,676 kB of additional disk space will be used.
+Do you want to continue [Y/n]? y
+Get:1 http://lk.archive.ubuntu.com/ubuntu/ natty/universe libdb4.7 i386 4.7.25-10ubuntu1 [620 kB]
+Get:2 http://lk.archive.ubuntu.com/ubuntu/ natty/universe nmh i386 1.3-1 [2,341 kB]
+Fetched 2,961 kB in 14s (198 kB/s)                                                    
+Selecting previously deselected package libdb4.7.
+(Reading database ... 180444 files and directories currently installed.)
+Unpacking libdb4.7 (from .../libdb4.7_4.7.25-10ubuntu1_i386.deb) ...
+Selecting previously deselected package nmh.
+Unpacking nmh (from .../archives/nmh_1.3-1_i386.deb) ...
+Processing triggers for man-db ...
+Setting up libdb4.7 (4.7.25-10ubuntu1) ...
+Setting up nmh (1.3-1) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+
+jisuka@HCL:~/xinu$ pick
+The program 'pick' can be found in the following packages:
+ * mailutils-mh
+ * nmh
+Try: sudo apt-get install <selected package>
+jisuka@HCL:~/xinu$ nmh
+No command 'nmh' found, did you mean:
+ Command 'nm' from package 'binutils' (main)
+ Command 'nm' from package 'binutils-multiarch' (universe)
+nmh: command not found
+
+jisuka@HCL:~/xinu$ sudo apt-get install mailutils-mh
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  linux-headers-2.6.38-8 linux-headers-2.6.38-8-generic
+Use 'apt-get autoremove' to remove them.
+Suggested packages:
+  mh-e
+The following NEW packages will be installed:
+  mailutils-mh
+0 upgraded, 1 newly installed, 0 to remove and 61 not upgraded.
+Need to get 1,197 kB of archives.
+After this operation, 2,761 kB of additional disk space will be used.
+Get:1 http://lk.archive.ubuntu.com/ubuntu/ natty/universe mailutils-mh i386 1:2.1+dfsg1-7build1 [1,197 kB]
+Fetched 1,197 kB in 6s (179 kB/s)                                                     
+Selecting previously deselected package mailutils-mh.
+(Reading database ... 180617 files and directories currently installed.)
+Unpacking mailutils-mh (from .../mailutils-mh_1%3a2.1+dfsg1-7build1_i386.deb) ...
+Setting up mailutils-mh (1:2.1+dfsg1-7build1) ...
+
+jisuka@HCL:~/xinu$ pick
+The program 'pick' can be found in the following packages:
+ * mailutils-mh
+ * nmh
+Try: sudo apt-get install <selected package>
+
+jisuka@HCL:~/xinu$ wtf
+The program 'wtf' is currently not installed.  You can install it by typing:
+sudo apt-get install bsdgames
